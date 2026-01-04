@@ -1,0 +1,68 @@
+﻿@model Interimkantoor.Models.Job
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Job</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Omschrijving" class="control-label"></label>
+                <input asp-for="Omschrijving" class="form-control" />
+                <span asp-validation-for="Omschrijving" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StartDatum" class="control-label"></label>
+                <input asp-for="StartDatum" class="form-control" />
+                <span asp-validation-for="StartDatum" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EindDatum" class="control-label"></label>
+                <input asp-for="EindDatum" class="form-control" />
+                <span asp-validation-for="EindDatum" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Locatie" class="control-label"></label>
+                <input asp-for="Locatie" class="form-control" />
+                <span asp-validation-for="Locatie" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsWerkschoenen" /> @Html.DisplayNameFor(model => model.IsWerkschoenen)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsBadge" /> @Html.DisplayNameFor(model => model.IsBadge)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsKleding" /> @Html.DisplayNameFor(model => model.IsKleding)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="AantalPlaatsen" class="control-label"></label>
+                <input asp-for="AantalPlaatsen" class="form-control" />
+                <span asp-validation-for="AantalPlaatsen" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

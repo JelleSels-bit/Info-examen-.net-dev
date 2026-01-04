@@ -1,0 +1,74 @@
+﻿@model IndexPageViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welkom op de vacaturesite voor werkwillige M/V</h1>
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <div class="ratio ratio-16x9">
+                    <img src="~/images/construction.jpg"
+                         class="d-block w-100 img-fluid object-fit-cover"
+                         alt="alt tekst">
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="ratio ratio-16x9">
+                    <img src="~/images/tools-table.jpg"
+                         class="d-block w-100 img-fluid object-fit-cover"
+                         alt="...">
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="ratio ratio-16x9">
+                    <img src="~/images/Werkman!.jpg"
+                         class="d-block w-100 img-fluid object-fit-cover"
+                         alt="...">
+                </div>
+            </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button"
+                data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button"
+                data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <h2>Openstaande vacatures:</h2>
+
+    @foreach (var job in Model.AvailableJobs)
+    {
+        @if (job != null)
+        {
+        <div class="bg-primary mb-4">
+
+            <p class="px-5 text-white">@job.Omschrijving</p>
+            <p>@job.Locatie</p>
+            <p>@job.StartDatum</p>
+            <p>@job.EindDatum</p>
+            <p>@(job.IsBadge ? "Badge: Vereist" : "")</p>
+            <p>@(job.IsKleding ? "Kleding: Vereist" : "")</p>
+            <p>@(job.IsWerkschoenen ? "Werkschoenen: Vereist" : "")</p>
+            <p>Beschikbare plaatsen: @job.VrijePlaatsen / @job.AantalPlaatsen</p>
+
+            <a asp-controller="Klant" asp-action="Assign" asp-route-id="@job.Id" class="btn btn-primary">Klant Toewijzen</a>
+        </div>
+
+
+        }
+    }
+</div>

@@ -1,0 +1,87 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+img {
+    border-radius: 10px;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.klant-select option[selected] {
+    background-color: blue;
+    color: white;
+}
+
+.wrapper {
+    min-height: 100vh;
+    position: relative;
+    overflow: auto;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.HC {
+    border-collapse: separate;
+    border-spacing: 10px 10px;
+}
+
+/* Primary color instellen*/
+.bg-primary {
+    background-color: lightskyblue !important;
+}
+
+/* Link teksten vet maken */
+.nav-link {
+    font-weight: bold;
+    color: #483D8B;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #483D8B;
+}
+
+.btn-primary {
+    background-color: #483D8B
+}
+
+/* Tekstkleur van navbar brand/tekst wit maken 
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: white;
+}
+
+/* Tekstkleur van navbar links wit maken 
+.navbar-custom .navbar-nav .nav-link {
+    color: white;
+}
+
+/* Tekstkleur van navbar links (bij active/hover) roze maken 
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #483D8B;
+}
+    */
+.shop-card {
+    width: 18rem !important;
+    height: 34rem !important;
+    float: left;
+}

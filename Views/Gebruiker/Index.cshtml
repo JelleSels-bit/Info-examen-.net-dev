@@ -1,0 +1,49 @@
+﻿
+@model GebruikerListViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+<h2> Gebruikers</h2>
+<div>
+      <a asp-action="Create" class="btn btn-primary"> Nieuwe gebruiker aanmaken</a>
+</div>
+
+<table>
+    <thead>
+        <tr>
+        <th class="col-md-4">
+            @Html.DisplayNameFor(v => v.Gebruikers[0].Achternaam)
+        </th>
+        <th class="col-md-4">
+            @Html.DisplayNameFor(v => v.Gebruikers[0].Voornaam)
+        </th>
+
+    <th class="col-md-4">
+            @Html.DisplayNameFor(v => v.Gebruikers[0].Email)
+    </th>
+    </tr>
+    </thead>
+    <tbody>
+        @foreach(var gebruiker in Model.Gebruikers){
+            <tr>
+                <td class="col-md-4">
+                    @Html.DisplayFor(modelitem => gebruiker.Achternaam)
+                </td>
+                <td class="col-md-4">
+                    @Html.DisplayFor(modelitem => gebruiker.Voornaam)
+                </td>
+
+                <td class="col-md-4">
+                    @Html.DisplayFor(modelitem => gebruiker.Email)
+                </td>
+                <td class="col-md-4">
+                    <a asp-action="Edit" asp-route-id="@gebruiker.Id" class="btn btn-primary">Wijzigen</a>
+
+                </td>
+                <td>
+                    <a asp-action="Delete" asp-route-id="@gebruiker.Id" class="btn btn-primary">Verwijderen</a>
+                </td>
+            </tr>
+             }
+    </tbody>
+</table>

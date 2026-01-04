@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jelle\\Downloads\\Info-examen-.net-dev\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{73FCBB28-A5F8-466A-8D95-1C1134E4704A}|Interimkantoor.csproj|c:\\users\\jelle\\downloads\\info-examen-.net-dev\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{73FCBB28-A5F8-466A-8D95-1C1134E4704A}|Interimkantoor.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FCBB28-A5F8-466A-8D95-1C1134E4704A}|Interimkantoor.csproj|c:\\users\\jelle\\downloads\\info-examen-.net-dev\\controllers\\klantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FCBB28-A5F8-466A-8D95-1C1134E4704A}|Interimkantoor.csproj|solutionrelative:controllers\\klantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FCBB28-A5F8-466A-8D95-1C1134E4704A}|Interimkantoor.csproj|c:\\users\\jelle\\downloads\\info-examen-.net-dev\\viewmodels\\klant\\klantcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FCBB28-A5F8-466A-8D95-1C1134E4704A}|Interimkantoor.csproj|solutionrelative:viewmodels\\klant\\klantcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FCBB28-A5F8-466A-8D95-1C1134E4704A}|Interimkantoor.csproj|c:\\users\\jelle\\downloads\\info-examen-.net-dev\\configuration\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FCBB28-A5F8-466A-8D95-1C1134E4704A}|Interimkantoor.csproj|solutionrelative:configuration\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FCBB28-A5F8-466A-8D95-1C1134E4704A}|Interimkantoor.csproj|c:\\users\\jelle\\downloads\\info-examen-.net-dev\\viewmodels\\klant\\klanteditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FCBB28-A5F8-466A-8D95-1C1134E4704A}|Interimkantoor.csproj|solutionrelative:viewmodels\\klant\\klanteditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FCBB28-A5F8-466A-8D95-1C1134E4704A}|Interimkantoor.csproj|c:\\users\\jelle\\downloads\\info-examen-.net-dev\\models\\klant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FCBB28-A5F8-466A-8D95-1C1134E4704A}|Interimkantoor.csproj|solutionrelative:models\\klant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Klant.cs",
+              "DocumentMoniker": "C:\\Users\\jelle\\Downloads\\Info-examen-.net-dev\\Models\\Klant.cs",
+              "RelativeDocumentMoniker": "Models\\Klant.cs",
+              "ToolTip": "C:\\Users\\jelle\\Downloads\\Info-examen-.net-dev\\Models\\Klant.cs",
+              "RelativeToolTip": "Models\\Klant.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCQAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T18:32:21.462Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\jelle\\Downloads\\Info-examen-.net-dev\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\jelle\\Downloads\\Info-examen-.net-dev\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-04T19:04:21.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "KlantEditViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\jelle\\Downloads\\Info-examen-.net-dev\\ViewModels\\Klant\\KlantEditViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Klant\\KlantEditViewModel.cs",
+              "ToolTip": "C:\\Users\\jelle\\Downloads\\Info-examen-.net-dev\\ViewModels\\Klant\\KlantEditViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Klant\\KlantEditViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T18:38:55.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\jelle\\Downloads\\Info-examen-.net-dev\\Configuration\\MapperProfile.cs",
+              "RelativeDocumentMoniker": "Configuration\\MapperProfile.cs",
+              "ToolTip": "C:\\Users\\jelle\\Downloads\\Info-examen-.net-dev\\Configuration\\MapperProfile.cs",
+              "RelativeToolTip": "Configuration\\MapperProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T18:36:25.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KlantCreateViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\jelle\\Downloads\\Info-examen-.net-dev\\ViewModels\\Klant\\KlantCreateViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Klant\\KlantCreateViewModel.cs",
+              "ToolTip": "C:\\Users\\jelle\\Downloads\\Info-examen-.net-dev\\ViewModels\\Klant\\KlantCreateViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Klant\\KlantCreateViewModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwB0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T18:31:37.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KlantController.cs",
+              "DocumentMoniker": "C:\\Users\\jelle\\Downloads\\Info-examen-.net-dev\\Controllers\\KlantController.cs",
+              "RelativeDocumentMoniker": "Controllers\\KlantController.cs",
+              "ToolTip": "C:\\Users\\jelle\\Downloads\\Info-examen-.net-dev\\Controllers\\KlantController.cs",
+              "RelativeToolTip": "Controllers\\KlantController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwCEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T18:29:30.199Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

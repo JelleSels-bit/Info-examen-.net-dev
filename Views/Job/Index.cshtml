@@ -1,0 +1,79 @@
+﻿@model JobIndexViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Vacatures</h1>
+
+<p>
+
+    <a class="btn btn-primary" asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Omschrijving
+            </th>
+            <th>
+                StartDatum
+            </th>
+            <th>
+                EindDatum
+            </th>
+            <th>
+                Locatie
+            </th>
+            <th>
+                IsWerkschoenen
+            </th>
+            <th>
+                IsBadge
+            </th>
+            <th>
+                IsKleding
+            </th>
+            <th>
+                AantalPlaatsen
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Vacatures) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Omschrijving)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartDatum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EindDatum)
+            </td>
+            <td>
+                @item.Locatie
+                
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsWerkschoenen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsBadge)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsKleding)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AantalPlaatsen)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

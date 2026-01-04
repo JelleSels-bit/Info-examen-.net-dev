@@ -1,0 +1,51 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model GebruikerEditViewModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<p></p>
+<h2>@Model.Voornaam @Model.Achternaam wijzigen</h2>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Achternaam" class="control-label"></label>
+                <input asp-for="Achternaam" class="form-control" />
+                <span asp-validation-for="Achternaam" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Voornaam" class="control-label"></label>
+                <input asp-for="Voornaam" class="form-control" />
+                <span asp-validation-for="Voornaam" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Geboortedatum" class="control-label"></label>
+                <input asp-for="Geboortedatum" class="form-control" />
+                <span asp-validation-for="Geboortedatum" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="GebruikerId" class="form-control" hidden />
+                <input type="submit" value="Wijzigen" class="btn btn-primary" />
+                <a asp-controller="Gebruiker" asp-action="Index" class="btn btn-primary">Terug</a>
+            </div>
+        </form>
+    </div>
+
+</div>
+<div>
+</div>
+@section Scripts{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }
